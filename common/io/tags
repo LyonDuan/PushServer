@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+J_IO_BASE_H	j_io_base.h	7;"	d
+J_IO_FILE_H	j_io_file.h	7;"	d
+J_IO_TCP_H	j_io_tcp.h	7;"	d
+J_IO_UDP_H	j_io_udp.h	7;"	d
+file_close	j_io_file.c	/^int file_close(struct io_desc* desc)$/;"	f	signature:(struct io_desc* desc)
+file_close	j_io_file.h	/^int file_close(struct io_desc* desc);$/;"	p	signature:(struct io_desc* desc)
+file_open	j_io_file.c	/^int file_open(struct io_desc* desc)$/;"	f	signature:(struct io_desc* desc)
+file_open	j_io_file.h	/^int file_open(struct io_desc* desc);$/;"	p	signature:(struct io_desc* desc)
+file_read	j_io_file.c	/^int file_read(struct io_desc* desc, char* buff, int len)$/;"	f	signature:(struct io_desc* desc, char* buff, int len)
+file_read_	j_io_file.h	/^int file_read_(struct io_desc* desc, char* buff, int len);$/;"	p	signature:(struct io_desc* desc, char* buff, int len)
+file_seek	j_io_file.c	/^int file_seek(struct io_desc* desc, int offset, int whence)$/;"	f	signature:(struct io_desc* desc, int offset, int whence)
+file_seek	j_io_file.h	/^int file_seek(struct io_desc* desc, int offset, int whence);$/;"	p	signature:(struct io_desc* desc, int offset, int whence)
+file_write	j_io_file.c	/^int file_write(struct io_desc* desc, char* buff, int len)$/;"	f	signature:(struct io_desc* desc, char* buff, int len)
+file_write	j_io_file.h	/^int file_write(struct io_desc* desc, char* buff, int len);$/;"	p	signature:(struct io_desc* desc, char* buff, int len)
+tcp_close	j_io_tcp.c	/^int tcp_close(struct io_desc* desc)$/;"	f	signature:(struct io_desc* desc)
+tcp_close	j_io_tcp.h	/^int tcp_close(struct io_desc* desc);$/;"	p	signature:(struct io_desc* desc)
+tcp_open	j_io_tcp.c	/^int tcp_open(struct io_desc* desc)$/;"	f	signature:(struct io_desc* desc)
+tcp_open	j_io_tcp.h	/^int tcp_open(struct io_desc* desc);$/;"	p	signature:(struct io_desc* desc)
+tcp_read	j_io_tcp.c	/^int tcp_read(struct io_desc* desc, char* buff, int len)$/;"	f	signature:(struct io_desc* desc, char* buff, int len)
+tcp_read_	j_io_tcp.h	/^int tcp_read_(struct io_desc* desc, char* buff, int len);$/;"	p	signature:(struct io_desc* desc, char* buff, int len)
+tcp_seek	j_io_tcp.c	/^int tcp_seek(struct io_desc* desc, int offset, int whence)$/;"	f	signature:(struct io_desc* desc, int offset, int whence)
+tcp_seek	j_io_tcp.h	/^int tcp_seek(struct io_desc* desc, int offset, int whence);$/;"	p	signature:(struct io_desc* desc, int offset, int whence)
+tcp_write	j_io_tcp.c	/^int tcp_write(struct io_desc* desc, char* buff, int len)$/;"	f	signature:(struct io_desc* desc, char* buff, int len)
+tcp_write	j_io_tcp.h	/^int tcp_write(struct io_desc* desc, char* buff, int len);$/;"	p	signature:(struct io_desc* desc, char* buff, int len)
+udp_close	j_io_udp.c	/^int udp_close(struct io_desc* desc)$/;"	f	signature:(struct io_desc* desc)
+udp_close	j_io_udp.h	/^int udp_close(struct io_desc* desc);$/;"	p	signature:(struct io_desc* desc)
+udp_open	j_io_udp.c	/^int udp_open(struct io_desc* desc)$/;"	f	signature:(struct io_desc* desc)
+udp_open	j_io_udp.h	/^int udp_open(struct io_desc* desc);$/;"	p	signature:(struct io_desc* desc)
+udp_read	j_io_udp.c	/^int udp_read(struct io_desc* desc, char* buff, int len)$/;"	f	signature:(struct io_desc* desc, char* buff, int len)
+udp_read_	j_io_udp.h	/^int udp_read_(struct io_desc* desc, char* buff, int len);$/;"	p	signature:(struct io_desc* desc, char* buff, int len)
+udp_seek	j_io_udp.c	/^int udp_seek(struct io_desc* desc, int offset, int whence)$/;"	f	signature:(struct io_desc* desc, int offset, int whence)
+udp_seek	j_io_udp.h	/^int udp_seek(struct io_desc* desc, int offset, int whence);$/;"	p	signature:(struct io_desc* desc, int offset, int whence)
+udp_write	j_io_udp.c	/^int udp_write(struct io_desc* desc, char* buff, int len)$/;"	f	signature:(struct io_desc* desc, char* buff, int len)
+udp_write	j_io_udp.h	/^int udp_write(struct io_desc* desc, char* buff, int len);$/;"	p	signature:(struct io_desc* desc, char* buff, int len)
